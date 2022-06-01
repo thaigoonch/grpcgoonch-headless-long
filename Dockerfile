@@ -11,5 +11,5 @@ COPY --from=shark /app /app
 WORKDIR /app
 RUN go install ./...
 
-ENTRYPOINT ["/go/bin/grpcgoonchheadless"]
+ENTRYPOINT ["/go/bin/grpcgoonchheadlesslong"]
 EXPOSE 9000
